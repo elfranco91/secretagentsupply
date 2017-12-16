@@ -1,0 +1,38 @@
+
+html {
+  font-size: 18px;
+  background-color: white;
+}
+head {display: none;}
+
+body {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.4em;
+}
+.company {
+    background-color: black;
+    color: white;
+}
+.company .container {
+    display: flex;
+    align-items: center;
+    padding: 12px 0 12px 0.5em;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.main-banner {
+    background: url("../images/moto.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25em;
+}
+element.style {
+  margin: 0px;
+  background:#0e0e0e;
+}
+div {
+  display: block;
+}
