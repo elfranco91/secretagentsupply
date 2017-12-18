@@ -1,4 +1,35 @@
+@media only screen and (max-width: 1024px) {
+    .product {
+        width: 47%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .product-watch {
+        width: 47%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .product-glasses {
+        display: none;
+    }
+}
+@media only screen and (max-width: 470px) {
+  .headline  {
+        float: bottom;
+    }
+}
+@media only screen and (max-width: 470px) {
+  .nav  {
+    display: none;
 
+    }
+}
+@media only screen and (max-width: 470px) {
+  .mobile-nav  {
+    display: block;
+
+    }
+}
 html {
   font-size: 18px;
   background-color: white;
@@ -49,6 +80,12 @@ nav ul {
     margin: 3em 0 0 0;
 }
 .product {
+    width: 30%;
+}
+.product-watch{
+    width: 30%;
+}
+.product-glasses{
     width: 30%;
 }
 .product-image {
