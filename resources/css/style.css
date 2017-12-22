@@ -146,3 +146,35 @@ footer {
     padding: 5em 0;
     margin-top: 4em;
 }
+
+.pen {
+  background: url("../images/pen.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+}
+.watch {
+  background: url("../images/watch.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+}
+.glasses {
+  background: url("../images/glasses.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+}
+.logo {
+  background: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: left;S
+  background-size: contain;
+
+}
+.company span{
+  padding-left: 90px;
+}
