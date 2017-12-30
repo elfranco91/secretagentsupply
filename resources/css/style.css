@@ -187,10 +187,11 @@ footer {
 
 
 
-@media only screen and (max-width: 470px) {
+@media (max-width: 470px) {
  .main-banner .container {
       width: 100%;
       font-size: 0.77rem;
+      position: relative;
       bottom: 0;
     }
 
