@@ -1,7 +1,4 @@
 
-
-
-
 html {
   font-size: 18px;
   background-color: white;
@@ -180,7 +177,7 @@ footer {
 @media only screen and (max-width: 470px) {
  .main-banner .container {
       float: bottom;
-      width: 50%;
+      width: 100%;
       font-size: 0.77rem;
     }
 }
