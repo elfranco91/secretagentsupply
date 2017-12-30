@@ -13,23 +13,33 @@
         display: none;
     }
 }
+
+@media only screen and (max-width: 1024px) {
+  .mobile-nav  {
+    display: block;
+    text-align: center;
+    }
+
+}
+@media only screen and (max-width: 1024px) {
+  nav ul  {
+    display: none;
+
+    }
+}
 @media only screen and (max-width: 470px) {
   .headline  {
         float: bottom;
     }
 }
 @media only screen and (max-width: 470px) {
-  .nav  {
-    display: none;
 
-    }
+.headline {
+  font-size: 0.77rem;
 }
-@media only screen and (max-width: 470px) {
-  .mobile-nav  {
-    display: block;
+}
 
-    }
-}
+
 html {
   font-size: 18px;
   background-color: white;
@@ -167,14 +177,17 @@ footer {
   background-position: center;
   background-size: contain;
 
+
 }
 .logo {
   background: url("../images/logo.png");
   background-repeat: no-repeat;
-  background-position: left;S
-  background-size: contain;
+  background-position: left;
+
+
 
 }
 .company span{
   padding-left: 90px;
+
 }
