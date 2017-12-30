@@ -191,11 +191,7 @@ footer {
  .main-banner .container {
       width: 100%;
       font-size: 0.77rem;
-
-    }
-    .headline {
-      position: absolute;
       bottom: 0;
-
     }
+
 }
