@@ -188,7 +188,7 @@ footer {
 
 
 @media (max-width: 470px) {
- .main-banner .container {
+ .main-banner .container .headline{
       width: 100%;
       font-size: 0.77rem;
       position: relative;
