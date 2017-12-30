@@ -1,35 +1,5 @@
 
 
-@media (max-width: 1024px) {
-    .product-glasses {
-        display: none;
-    }
-    .mobile-nav  {
-      display: block;
-      text-align: center;
-      }
-      nav ul  {
-        display: none;
-
-        }
-      .product {
-            width: 47%;
-        }
-      .product-watch {
-            width: 47%;
-        }
-}
-
-
-
-@media only screen and (max-width: 470px) {
- .main-banner .container {
-      float: bottom;
-      width: 100%;
-      font-size: 0.77rem;
-    }
-}
-
 
 
 html {
@@ -182,4 +152,35 @@ footer {
 .company span{
   padding-left: 90px;
 
+}
+
+
+@media (max-width: 1024px) {
+    .product-glasses {
+        display: none;
+    }
+    .mobile-nav  {
+      display: block;
+      text-align: center;
+      }
+      nav ul  {
+        display: none;
+
+        }
+      .product {
+            width: 47%;
+        }
+      .product-watch {
+            width: 47%;
+        }
+}
+
+
+
+@media only screen and (max-width: 470px) {
+ .main-banner .container {
+      float: bottom;
+      width: 50%;
+      font-size: 0.77rem;
+    }
 }
