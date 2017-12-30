@@ -1,43 +1,35 @@
-@media only screen and (max-width: 1024px) {
-    .product {
-        width: 47%;
-    }
-}
-@media only screen and (max-width: 1024px) {
-    .product-watch {
-        width: 47%;
-    }
-}
-@media only screen and (max-width: 1024px) {
+
+
+@media (max-width: 1024px) {
     .product-glasses {
         display: none;
     }
+    .mobile-nav  {
+      display: block;
+      text-align: center;
+      }
+      nav ul  {
+        display: none;
+
+        }
+      .product {
+            width: 47%;
+        }
+      .product-watch {
+            width: 47%;
+        }
 }
 
-@media only screen and (max-width: 1024px) {
-  .mobile-nav  {
-    display: block;
-    text-align: center;
-    }
 
-}
-@media only screen and (max-width: 1024px) {
-  nav ul  {
-    display: none;
 
-    }
-}
 @media only screen and (max-width: 470px) {
-  .headline  {
-        float: bottom;
+ .main-banner .container {
+      float: bottom;
+      width: 100%;
+      font-size: 0.77rem;
     }
 }
-@media only screen and (max-width: 470px) {
 
-.headline {
-  font-size: 0.77rem;
-}
-}
 
 
 html {
