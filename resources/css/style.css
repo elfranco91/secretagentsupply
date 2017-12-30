@@ -29,6 +29,7 @@ body {
     background-size: cover;
     height: 25em;
 }
+
 nav {
     background-color: firebrick;
     color: white;
@@ -89,6 +90,7 @@ nav ul {
     line-height: 1.2em;
     margin: 0.25em 0;
 }
+
 .business-info {
     display: flex;
     justify-content: space-between;
@@ -153,6 +155,17 @@ footer {
 
 
 @media (max-width: 1024px) {
+   .container .headline{
+      width: 100%;
+      margin: 0 auto;
+
+  }
+
+  #copyright {
+      position: absolute;
+      bottom: 0;
+
+  }
     .product-glasses {
         display: none;
     }
@@ -170,14 +183,17 @@ footer {
       .product-watch {
             width: 47%;
         }
-}
+      }
 
 
 
 @media only screen and (max-width: 470px) {
  .main-banner .container {
-      float: bottom;
       width: 100%;
       font-size: 0.77rem;
+      position: absolute;
+      bottom: 0;
+
+
     }
 }
