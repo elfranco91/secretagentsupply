@@ -159,12 +159,10 @@ footer {
 
 @media (max-width: 1024px) {
 
-   .container .headline {
-      width: 100%;
-      margin: 0 auto;
 
+.main-banner .container {
+  overflow:hidden;
 }
-
 
   #copyright {
       position: absolute;
@@ -199,9 +197,14 @@ footer {
       width: 100%;
       overflow:hidden;
 
+
 }
 .container .headline {
+    
     top: 18em;
+
+
+
 }
 .container .headline h4{
   font-size: 0.77rem;
