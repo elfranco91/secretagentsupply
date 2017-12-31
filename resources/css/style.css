@@ -197,10 +197,17 @@ footer {
  .main-banner .container {
 
       width: 100%;
-      font-size: 0.77rem;
+      overflow:hidden;
 
 }
 .container .headline {
-    top: 10em;
+    top: 18em;
 }
+.container .headline h4{
+  font-size: 0.77rem;
+}
+.container .headline h1{
+  font-size: 1rem;
+}
+
 }
