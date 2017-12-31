@@ -195,7 +195,7 @@ footer {
 
 @media (max-width: 470px) {
  .main-banner .container {
-      display: flex;
+    
       width: 100%;
       font-size: 0.77rem;
       position: relative;
