@@ -198,6 +198,9 @@ footer {
 
       width: 100%;
       font-size: 0.77rem;
-}
 
+}
+.container .headline {
+    top: 10em;
+}
 }
